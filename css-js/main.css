@@ -109,6 +109,7 @@ html::-webkit-scrollbar-track {
 	color: #747474;
 	transition: 0.3s ease;
 	padding-right: 0.5em;
+        font-size: 16px;
 }
 
 .social-links:hover {
