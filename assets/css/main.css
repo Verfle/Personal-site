@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap');
+
+body, html {
+	box-sizing: border-box;
+	background-color: #111;
+	color: #e5e5e5;
+	height: 100%;
+	font-family: 'Fira Sans', sans-serif;
+	letter-spacing: 1px;
+}
+/* === setting === */
+a {
+	text-decoration: none;
+}
+/* === header === */
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+/* === container === */
+.container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 2rem 1.5rem;
+}
+/* === row === */
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+/* === logo img === */
+.logo img {
+	max-width: 160px;
+	border-radius: 9999px;
+}
+/* === content === */
+.content {
+	margin: 0 auto;
+	max-width: 500px;
+}
+.content h1, h2 {
+	font-weight: 400;
+}
+.content p {
+	font-weight: 400;
+	line-height: 1.5;
+}
+/* === skills icons */
+.skill-icon {
+	padding: 0 0.3em;
+	font-size: 1.5rem;
+	transition: 0.3s ease;
+}
+.skill-icon:hover {
+	color: #fff;
+}
+/* === title === */
+.title-grey {
+	color: grey;
+}
+/* === box === */
+.box {
+	margin-top: 20px;
+	background: #222;
+	padding: 1rem 1rem;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+.box:hover {
+	transform: scale(1.02);
+}
+@keyframes hue {
+	from {
+		filter: hue-rotate(0deg);
+	}
+	to {
+		filter: hue-rotate(-360deg);
+	}
+}
