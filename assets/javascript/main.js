@@ -12,7 +12,7 @@ const json = [
 	},
 	{
 		"id": "Messenger",
-		"url": "https://facebook.com/2006in",
+		"url": "https://m.me/2006in",
 		"icon": "fa-brands fa-facebook-messenger"
 	},
 	{
