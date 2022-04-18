@@ -28,7 +28,7 @@ json.forEach((obgs) => {
 });
 // === content ===
 const name = document.getElementById('name');
-name.innerText = 'Verfle Thanyathep Gamber';
+name.innerText = 'Thanyathep Gamber';
 
 // === age manager ===
 const age = document.getElementById('age');
